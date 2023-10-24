@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import axios from "axios";
-import ProductCard from "../components/ProductCard";
+import ProductCard from "../../components/ProductCard";
 const Products = (props) => {
   const [products, setProducts] = useState([]);
   const getProducts = async () => {
